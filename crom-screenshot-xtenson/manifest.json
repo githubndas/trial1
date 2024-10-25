@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "name": "Screenshot Extension",
+  "action": {
+    "default_popup": "pop.html"
+  },
+  "manifest_version": 3
+}
