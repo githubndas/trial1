@@ -1,0 +1,148 @@
+[
+  {
+    "id": "",
+    "data": [
+      {
+        "text": "set an appointment for ",
+        "userDefined": false
+      },
+      {
+        "text": "drivers license",
+        "alias": "AppointmentType",
+        "meta": "@AppointmentType",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "at 3pm",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 
+  },
+  {
+    "id": "",
+    "data": [
+      {
+        "text": "Need an appointment for ",
+        "userDefined": false
+      },
+      {
+        "text": "4pm",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 
+  },
+  {
+    "id": "",
+    "data": [
+      {
+        "text": "vehicle registration",
+        "alias": "AppointmentType",
+        "meta": "@AppointmentType",
+        "userDefined": false
+      },
+      {
+        "text": " appointment for ",
+        "userDefined": false
+      },
+      {
+        "text": "monday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 
+  },
+  {
+    "id": "",
+    "data": [
+      {
+        "text": "I would like to set an appointment for ",
+        "userDefined": false
+      },
+      {
+        "text": "3pm",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "on Tuesday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 
+  },
+  {
+    "id": "",
+    "data": [
+      {
+        "text": "Set an appointment ",
+        "userDefined": false
+      },
+      {
+        "text": "on Wednesday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "at 2pm",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 
+  }
+]

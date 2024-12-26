@@ -1,0 +1,22 @@
+[
+  {
+    "value": "Vehicle registration",
+    "synonyms": [
+      "Vehicle registration",
+      "registration",
+      "car registration",
+      "register"
+    ]
+  },
+  {
+    "value": "Drivers License",
+    "synonyms": [
+      "Drivers License",
+      "DL",
+      "license",
+      "test",
+      "driving test",
+      "real ID"
+    ]
+  }
+]

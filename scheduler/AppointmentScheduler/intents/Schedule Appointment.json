@@ -1,0 +1,71 @@
+{
+  "id": "",
+  "name": "Schedule Appointment",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "",
+          "required": true,
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What time would you like to come in?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What date?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "",
+          "required": true,
+          "dataType": "@AppointmentType",
+          "name": "AppointmentType",
+          "value": "$AppointmentType",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What services are you looking to get? DMV offers Driver license and vehicle registration services."
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You are all set for you $AppointmentType on $date at $time, see you then!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": ,
+  "fallbackIntent": false,
+  "events": []
+}
